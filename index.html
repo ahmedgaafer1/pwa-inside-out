@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Gaafer – Web Creative</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <span class="sparkle">✨</span> Welcome to My World
+        <span class="sparkle">✨</span>
+      </h1>
+      <nav>
+        <a href="index.html"><i class="fa fa-home"></i> Home</a>
+        <a href="about.html"><i class="fa fa-user"></i> About</a>
+        <a href="blog.html"><i class="fa fa-blog"></i> Blog</a>
+        <a href="index.html#contact"><i class="fa fa-envelope"></i> Contact</a>
+        <button id="mode-toggle" aria-label="Toggle Theme">
+          <i class="fa fa-moon"></i>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h2>Hi, I'm <span id="typed-name"></span></h2>
+        <p>
+          Welcome to my digital corner — a space where design meets function.
+          I'm passionate about crafting elegant, responsive, and
+          performance-driven websites. Want to see something cool? Tap the
+          button below and enjoy the magic!
+        </p>
+        <button id="cta-btn"><i class="fa fa-magic"></i> Show Me</button>
+      </section>
+      <section id="features">
+        <h2>What You'll Find Here</h2>
+        <ul>
+          <li>
+            <i class="fa fa-mobile-alt colored-icon"></i> Fully responsive
+            across all devices
+          </li>
+          <li>
+            <i class="fa fa-paint-brush colored-icon"></i> Personalized color
+            palette & UI details
+          </li>
+          <li>
+            <i class="fa fa-bolt colored-icon"></i> Ready to go as a modern PWA
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Let's Connect</h2>
+        <form id="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">
+            <i class="fa fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Crafted with 💙 by
+        <span class="footer-signature">Ahmed Gaafer</span> &copy; 2025 — All
+        rights reserved.
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
