@@ -96,7 +96,7 @@ _This page is shown when a file is not cached and the user is offline:_
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/pwa-inside-out.git
+   git clone git clone https://github.com/ahmedgaafer1/pwa-inside-out.git
    cd pwa-inside-out
    ```
 
@@ -186,65 +186,7 @@ You can simulate this by:
 - Beautiful image integration
 - Engaging content about productivity and creativity
 
-## 🔧 Customization
 
-### Changing Colors
-
-Edit the CSS variables in `style.css`:
-
-```css
-:root {
-  --main-bg: #f5f7fa;
-  --primary: #4f8cff;
-  --accent: #ffb347;
-  --text: #222;
-}
-```
-
-### Adding New Pages
-
-1. Create new HTML file
-2. Link to `style.css` and `main.js`
-3. Add navigation link in header
-4. Update service worker cache list
-
-### Modifying Content
-
-- Edit HTML files for content changes
-- Update images in the `images/` directory
-- Modify blog posts in `blog.html`
-
-## 🚀 Deployment
-
-### GitHub Pages
-
-1. Push to GitHub repository
-2. Go to repository Settings
-3. Enable GitHub Pages
-4. Choose source branch
-5. Your PWA will be live at `https://username.github.io/repository-name`
-
-### Netlify
-
-1. Connect your GitHub repository
-2. Deploy automatically with each push
-3. Enjoy continuous deployment
-
-### Vercel
-
-1. Import your GitHub repository
-2. Deploy with zero configuration
-3. Get instant HTTPS and CDN
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
@@ -266,15 +208,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [MDN Web Docs](https://developer.mozilla.org/) for PWA documentation
 - The web development community for inspiration
 
-## 📈 Future Enhancements
-
-- [ ] Add blog post management system
-- [ ] Implement search functionality
-- [ ] Add social media integration
-- [ ] Create project portfolio section
-- [ ] Add analytics tracking
-- [ ] Implement push notifications
-- [ ] Add offline content creation
 
 ---
 
