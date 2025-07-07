@@ -196,10 +196,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Ahmed Gaafer**
 
-- Portfolio: [Your Portfolio Link]
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn Profile]
-- Email: your.email@example.com
+- GitHub: [@ahmedgaafer1](https://github.com/ahmedgaafer1)
+- LinkedIn: [Ahmed Gaafer](https://www.linkedin.com/in/ahmedgaafer/)
+- Email: ahmedmohammedgaafer@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -212,6 +211,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>⭐ Star this repository if you found it helpful!</p>
   <p>Made with 💙 by Ahmed Gaafer</p>
 </div>
